@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navigation from './commons/Navigation'
+import InputUserName from './components/pages/InputUserName/'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import HomeRoute from './components/routes/Home'
+import LotoRoute from './components/routes/Loto'
 
+
+const App = () => {
+
+    return (
+        <Router>
+            <div className="App">
+                <Navigation/>
+
+                <Switch>
+                    <HomeRoute exact path="/" />
+
+                    <Route exact path="/inputusername">
+                        <InputUserName />
+                    </Route>
+
+                    <LotoRoute exact path="/loto" />
+
+                </Switch>
+            </div>
+        </Router>
+    );
+  }
+
+  
 export default App;

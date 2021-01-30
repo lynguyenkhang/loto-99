@@ -1,0 +1,100 @@
+.MembersBtn__Icon {
+    padding: 0px 10px;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("../../../../../images/members.png");
+
+    position: relative;
+}
+
+    .MembersBtn__Icon span {
+        position: absolute;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+        background-color: #03a8ff;
+        color: #fff;
+        right: -3px;
+        top: -12.5px
+    }
+
+
+.MembersBtn__listBox{
+    list-style-type: none;
+    transition: all .5s ease-in;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    transition: all 330ms ease-out;
+
+    position: fixed;
+    right: 0px;
+    top: 88px;
+    z-index: 1;
+
+
+    border-top: 1px solid #ddd;
+    border-radius: 20px 0px 0px 20px;
+    margin: 0px;
+    padding: 20px 30px;
+
+    width: max-content;
+    height: 500px;
+    /* max-width: 150px; */
+
+    background-color: rgba(255,255,255,1);
+    word-break: break-word;
+}
+
+.MembersBtn__showListsBox{
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    transition: all 330ms ease-in;
+}
+
+    .MembersBtn__listBox li {
+        margin: 10px 0px;
+    }
+
+.MembersBtn__overlay{
+    display: block;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 101vw;
+    height: 101vh;
+    z-index: 1;
+
+    background: rgba(0,0,0,0.4);
+    opacity: 0;
+    will-change: opacity;
+    pointer-events: none;
+    transition: opacity 0.3s cubic-bezier(0,0,0.3,1);
+}
+
+.MembersBtn__showOverlay {
+    pointer-events: auto;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.MembersBtn__listNumber {
+    margin: 5px;
+    color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

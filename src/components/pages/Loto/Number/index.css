@@ -1,0 +1,38 @@
+.Number {
+    width: 35px;
+    height: 60px;
+    border: 1px solid #555;
+    border-top: none !important;
+    border-left: none;
+    outline: none;
+    padding: 0px;
+    font-size: 16px;
+
+}
+
+    .activeNumber {
+        background-image: url("../../../../images/beans.png") !important;
+        background-size: cover;
+        background-position: center;
+        color: #eee;
+        font-weight: bold;
+    }
+
+
+
+
+    .Number__topLeftRadius{
+        border-top-left-radius: 10px;
+    }
+
+    .Number__topRightRadius{
+        border-top-right-radius: 10px;
+    }
+
+    .Number__botLeftRadius {
+        border-bottom-left-radius: 10px;
+    }
+
+    .Number__botRightRadius {
+        border-bottom-right-radius: 10px;
+    }

@@ -1,0 +1,16 @@
+.ResetTableBtn__resetBtn{
+    /* position: absolute; */
+    transition: .3s ease-out;
+    padding: 0px 10px;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("../../../../../images/reset_icon.png");
+}
+
+.ResetTableBtn__hideResetBtn {
+    transform: rotate(0deg) scale(0) !important;
+    transition: .3s ease-in;
+}

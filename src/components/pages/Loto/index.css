@@ -1,0 +1,60 @@
+
+
+    .Loto__table{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 35px 0px 20px 0px;
+    }
+    .Loto__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px auto;
+        height: 60px;
+        max-width: 310px;
+    }
+
+    .Loto__functionsBox{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex: 1;
+    }
+
+        .Loto__resetAndAgainBox {
+
+            height: 35px;
+            position: relative;
+        }
+
+
+
+
+
+
+
+
+
+.Loto__congratulation{
+    color: tomato;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    transition: all .3s;
+    position: fixed;
+    width: 315px;
+    height: 315px;
+    padding-left: 20px !important;
+    left: calc((100% - 315px - 20px) / 2);
+    top: 215px;
+    background-image: url('../../../images/winner.jpg');
+    background-size: cover;
+    background-position: right bottom;
+    display: flex;
+    align-items: center;
+    transition: all .5s;
+    transform: scale(0);
+}
+.Loto__showCongratulation{
+    transform: scale(1);
+}

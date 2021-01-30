@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Loto 99 App
+ Website: [loto-99](https://loto-99.web.app/)
+This project build Vietnamese Bingo game, called *Loto*. 
+* Loto game is an entertaining game on traditional holidays. Vietnamese lotto game have many players at the same time.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Loto is Bingo 90 numbers, a game of chance. When a player finds the selected numbers are arranged on their card in a row, they call out "*Kinh!*"
 
-## Available Scripts
+* Players compete against one another to be the **first** to have a winning arrangement for the prize or jackpot. This is almost a jackpot game
 
-In the project directory, you can run:
+## Guide:
+**Step 1:** You have to fill the name you want.
 
-### `npm start`
+**Step 2:** There are 2 options:
+1. Join another player's room: You will enter a room code to enter, as a *member*. Note: If there are people in the room that **match** your current username, you will not be able to enter the room.
+2. Create a new room: You will create a new room with random room code and you will be the *host* in this room
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Step 3:** If you are a **host**, you have to click a button "Lắc" to get a random number. Players will select the number, called by host, in the card in screen. Whoever finds the selected numbers are arranged on their card in a row, they win.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Step 4:** If you are a **host**, when the game is finished, you have to click "New" button to start a new game

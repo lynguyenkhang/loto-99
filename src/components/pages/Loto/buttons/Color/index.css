@@ -1,0 +1,85 @@
+.ChangeColorBtn{
+    width: max-content;
+    margin-left: 10px;
+    position: relative;
+}
+
+    .ChangeColorBtn__button{
+        width: 35px;
+        height: 35px;
+        padding-left: 10px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+        background-image: url("../../../../../images/color-circle.png");
+
+    }
+
+    .ChangeColorBtn__overlay{
+        display: block;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 101vw;
+        height: 101vh;
+        z-index: 1;
+
+        background: rgba(0,0,0,0.4);
+        opacity: 0;
+        will-change: opacity;
+        pointer-events: none;
+        transition: opacity 0.3s cubic-bezier(0,0,0.3,1);
+
+
+    }
+    .ChangeColorBtn__showOverlay {
+        pointer-events: auto;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+
+    .ChangeColorBtn__listsBox{
+        list-style-type: none;
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+        transition: all 330ms ease-out;
+
+        position: fixed;
+        right: 0px;
+        top: 88px;
+        z-index: 1;
+
+        border-top: 1px solid #ddd;
+        border-radius: 20px 0px 0px 20px;
+        margin: 0px;
+        padding: 10px 8px;
+
+        width: 162px;
+        height: 520px;
+        background-color: rgba(255,255,255,1);
+
+    }
+
+    .ChangeColorBtn__showListsBox{
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        transition: all 330ms ease-in;
+
+        /* transition: all .5s ease-in; */
+    }
+
+        .ChangeColorBtn__listsBox button{
+            border: none;
+            border-radius: 50%;
+            margin: 12px;
+            width: 30px;
+            height: 30px;
+            padding: 0px;
+            outline: none;
+        }
+
+        .ChangeColorBtn__colorButton:hover {
+            opacity: .7;
+        }

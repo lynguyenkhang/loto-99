@@ -1,0 +1,88 @@
+.InputUserName {
+    width: 100vw;
+    height: calc(100vh - 55px);
+    position: relative;
+}
+
+.InputUserName__bgImage{
+    background-image: url('../../../images/bg__loto.png');
+    filter: blur(1px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.InputUserName__overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.3);
+}
+
+.InputUserName__box{
+    background-color: rgba(255,255,255, 1); /* Black w/opacity/see-through */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: max-content;
+    border-radius: 15px;
+    padding: 34px;
+}
+
+
+        .InputUserName__inputBox{
+            border-radius: 20px;
+            /* margin: 30px 30px 10px 30px; */
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0px 0px 10px 1.5px #d5d5d5;
+            padding: 0px 15px;
+            display: flex;
+            align-items: center;
+            height: 40px;
+        }
+            .InputUserName__inputBox input{
+                width: 100%;
+                border: none;
+                margin-left: 10px;
+                outline: none;
+                font-size: 16px !important;
+                padding-top: 4px;
+            }
+
+        .InputUserName__inputBox img{
+            width: 25px;
+            height: 25px;
+        }
+
+
+
+
+        .InputUserName__button{
+            border-radius: 20px;
+            border: 0px;
+            padding: 10px 15px;
+            background: rgb(99,203,255);
+            background: linear-gradient(90deg, rgba(99,203,255,1) 6%, rgba(13,87,254,1) 85%);
+            color: #eee;
+            font-size: 16px;
+            font-weight: bold;
+            outline: none;
+            height: 40px;
+        }
+
+        .InputUserName__button:hover, .InputUserName__button:active {
+            background: rgb(47,168,228);
+            background: linear-gradient(90deg, rgba(47,168,228,1) 6%, rgba(4,68,213,1) 85%);
+        }

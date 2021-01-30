@@ -1,0 +1,17 @@
+.Loto__playAgainBtn{
+    transition: .3s ease-in;
+    padding: 0px 10px;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("../../../../../images/new-product.svg");
+    position: absolute;
+    transform: scale(0);
+}
+
+.Loto__showPlayAgainBtn{
+    transform: scale(1);
+    transition: .3s ease-out;
+}

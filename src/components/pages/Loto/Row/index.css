@@ -1,0 +1,6 @@
+.Row{
+    display: flex;
+    width: max-content;
+    border-radius: 10px;
+}
+

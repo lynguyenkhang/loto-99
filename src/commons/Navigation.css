@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.Navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+    .Navigation__userName{
+        color: #0d8041;
+        /* font-family: 'Pacifico'; */
+        font-weight: bold;
+        font-size: 16px;
+        max-width: 150px;
+        overflow-wrap: break-word;
+    }
+
+        .Navigation__typeUser{
+            color: #5D707F !important;
+            /* color: #000; */
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            font-size: 14px;
+            margin-left: 3px;
+            word-break: keep-all;
+        }
+
+
+
+    .Navigation__list {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+        .Navigation__link {
+            display: inline;
+            margin-left: 15px
+        }
+            .Navigation__link  a{
+                text-decoration: none;
+                color: #333;
+                font-size: 14px;
+            }
+
+        .Navigation__roomID {
+            display: inline;
+            margin-left: 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+
+
+        .Navigation__activeLink a{
+            color:#03a8ff !important;
+        }
