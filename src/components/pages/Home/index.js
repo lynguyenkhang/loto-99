@@ -1,14 +1,12 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useEffect, useRef } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from "react-router-dom";
-import { useDispatch, useSelector } from 'react-redux'
-
-import './index.css'
-import houseIcon from '../../../images/house.svg'
-import AlertAnnounce from '../../announces/Alert/'
-
-import { addRoom } from '../../../features/user';
 import { setAlert } from '../../../features/buttons';
-
+import { addRoom } from '../../../features/user';
+import houseIcon from '../../../images/house.svg';
+import AlertAnnounce from '../../announces/Alert/';
+import './index.css';
+ 
 
 const Home = () => {
 

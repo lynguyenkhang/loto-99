@@ -1,8 +1,8 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { changeColors } from '../../../../../features/buttons'
-
 import './index.css'
+
 
 const ChangeColorBtn = () => {
     const colors = ["#847996","#F77F00","#DF4748","#44bd32", "#00a8ff", "#888C6C", "#379392", "#A97C73", "#FCBF49", "#FF8CC6", "#A28497", "#D1AC00", "#9984D4", "#DB7F67", "#79B473"]

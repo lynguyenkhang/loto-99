@@ -1,12 +1,12 @@
-import { combineReducers } from 'redux'
 import { configureStore } from '@reduxjs/toolkit'
-
+import { combineReducers } from 'redux'
 import buttonsReducer from './features/buttons'
 import roomReducer from './features/room'
 import userReducer from './features/user'
 import checkActiveNumber from './middlewares/buttons'
-import {changeCurrentNumber, fetchFirestoreRoom, resetFirestoreRoom, addFirestoreWinners} from  './middlewares/room'
-import {onSnapShotTypeUser, addRoomMiddleware, clearUserInFirestore } from './middlewares/user'
+import { addFirestoreWinners, changeCurrentNumber, fetchFirestoreRoom, resetFirestoreRoom } from './middlewares/room'
+import { addRoomMiddleware, clearUserInFirestore, onSnapShotTypeUser } from './middlewares/user'
+
 
 
 

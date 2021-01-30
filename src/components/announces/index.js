@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from 'react'
+import React, { useEffect, useState } from 'react'
+import startIcon from '../../images/flag.svg'
+import alertIcon from '../../images/triangle.svg'
+import trophyIcon from '../../images/trophy.svg'
 import './index.css'
 
-import trophyIcon from '../../images/trophy.svg'
-import alertIcon from '../../images/triangle.svg'
-import startIcon from '../../images/flag.svg'
 
 const defaultDecoration  = {
     backgroundColor: '#f8d7da',

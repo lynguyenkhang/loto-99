@@ -1,10 +1,10 @@
-import React, {useRef} from 'react'
+import React, { useRef } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { useHistory, useLocation } from "react-router-dom";
-import { useDispatch, useSelector } from 'react-redux'
-import './index.css'
-
-import userIcon from '../../../images/account.png'
 import { addName } from '../../../features/user';
+import userIcon from '../../../images/account.png';
+import './index.css';
+
 
 function InputUserName() {
     const inputEl = useRef(null);

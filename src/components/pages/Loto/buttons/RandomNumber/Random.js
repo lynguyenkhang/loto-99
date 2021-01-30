@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import './Random.css'
-import { useDispatch ,useSelector} from 'react-redux'
-import { randomNumber } from '../../../../../features/room'
+import { useDispatch, useSelector } from 'react-redux'
 import { clearTable } from '../../../../../features/buttons'
+import { randomNumber } from '../../../../../features/room'
+import './Random.css'
 
 
 const RandomNumberBtn = () => {

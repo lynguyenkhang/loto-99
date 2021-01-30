@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navigation from './commons/Navigation'
-import InputUserName from './components/pages/InputUserName/'
+import './App.css';
+import Navigation from './commons/Navigation';
+import InputUserName from './components/pages/InputUserName/';
+import HomeRoute from './components/routes/Home';
+import LotoRoute from './components/routes/Loto';
 
-import HomeRoute from './components/routes/Home'
-import LotoRoute from './components/routes/Loto'
 
 
 const App = () => {

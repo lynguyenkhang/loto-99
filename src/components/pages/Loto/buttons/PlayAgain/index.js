@@ -1,8 +1,8 @@
 import React from 'react'
-import { useSelector, useDispatch} from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { playAgain } from '../../../../../features/room'
-
 import './index.css'
+
 
 const PlayAgainBtn = () => {
     const Winners = useSelector(state => state.room.firestoreData.Winners)

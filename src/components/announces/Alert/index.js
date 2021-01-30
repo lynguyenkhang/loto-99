@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-
 import Announce from '../index'
+
 
 export default function AlertAnnounce() {
     const alert = useSelector(state => state.buttons.alert)
